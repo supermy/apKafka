@@ -5,7 +5,7 @@ MAINTAINER JamesMo <springclick@gmail.com>
 #http://www-eu.apache.org/dist/kafka/0.10.0.1/kafka_2.11-0.10.0.1.tgz
 #http://apache.fayea.com/kafka/0.10.0.1/kafka_2.11-0.10.0.1.tgz
 
-RUN wget  http://www-eu.apache.org/dist/0.10.0.1/kafka_2.11-0.10.0.1.tgz -O /tmp/kafka_2.11-0.10.0.1.tgz \
+RUN  wget  http://apache.fayea.com/kafka/0.10.0.1/kafka_2.11-0.10.0.1.tgz -O /tmp/kafka_2.11-0.10.0.1.tgz \
     && tar xfz /tmp/kafka_2.11-0.10.0.1.tgz -C /opt  \
     && rm /tmp/kafka_2.11-0.10.0.1.tgz
 
